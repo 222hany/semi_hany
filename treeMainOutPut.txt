@@ -1,0 +1,192 @@
+폴더 PATH의 목록입니다.
+볼륨 일련 번호는 8C74-6267입니다.
+C:.
+│  .gitignore
+│  outtree.txt
+│  treeMainOutPut.txt
+│  
+├─semi_30s
+│  │  .classpath
+│  │  .project
+│  │  
+│  ├─.settings
+│  │      .jsdtscope
+│  │      org.eclipse.core.resources.prefs
+│  │      org.eclipse.jdt.core.prefs
+│  │      org.eclipse.wst.common.component
+│  │      org.eclipse.wst.common.project.facet.core.xml
+│  │      org.eclipse.wst.jsdt.ui.superType.container
+│  │      org.eclipse.wst.jsdt.ui.superType.name
+│  │      
+│  ├─build
+│  │  └─classes
+│  │      └─semi
+│  │          ├─main
+│  │          │      Product.class
+│  │          │      ProductDAO.class
+│  │          │      
+│  │          ├─mypage
+│  │          │      DeleteAccountServlet.class
+│  │          │      UpdateUserinfoServlet.class
+│  │          │      
+│  │          └─user
+│  │                  JoinServlet.class
+│  │                  LoginLogoutServlet.class
+│  │                  
+│  └─src
+│      └─main
+│          ├─java
+│          │  └─semi
+│          │      ├─main
+│          │      │      Product.java
+│          │      │      ProductDAO.java
+│          │      │      
+│          │      ├─mypage
+│          │      │      DeleteAccountServlet.java
+│          │      │      UpdateUserinfoServlet.java
+│          │      │      
+│          │      └─user
+│          │              JoinServlet.java
+│          │              LoginLogoutServlet.java
+│          │              
+│          └─webapp
+│              │  changePassword.jsp
+│              │  deleteAccount.jsp
+│              │  deleteSuccess.jsp
+│              │  invalidAccountId.jsp
+│              │  login.jsp
+│              │  logout.jsp
+│              │  mainpage.jsp
+│              │  productList.jsp
+│              │  register.jsp
+│              │  
+│              ├─css
+│              │      changePassword.css
+│              │      deleteAccount.css
+│              │      login.css
+│              │      mainpage.css
+│              │      productList.css
+│              │      register.css
+│              │      
+│              ├─img
+│              │      gajidori.png
+│              │      gajikun-unscreen.gif
+│              │      gazi.png
+│              │      
+│              ├─META-INF
+│              │      MANIFEST.MF
+│              │      
+│              └─WEB-INF
+│                  └─lib
+│                          ojdbc11.jar
+│                          
+├─semi_main_page
+│  │  .classpath
+│  │  .project
+│  │  
+│  ├─.settings
+│  │      .jsdtscope
+│  │      org.eclipse.jdt.core.prefs
+│  │      org.eclipse.wst.common.component
+│  │      org.eclipse.wst.common.project.facet.core.xml
+│  │      org.eclipse.wst.jsdt.ui.superType.container
+│  │      org.eclipse.wst.jsdt.ui.superType.name
+│  │      
+│  ├─build
+│  │  └─classes
+│  └─src
+│      └─main
+│          ├─java
+│          └─webapp
+│              ├─img
+│              ├─META-INF
+│              │      MANIFEST.MF
+│              │      
+│              └─WEB-INF
+│                  └─lib
+│                          ojdbc11.jar
+│                          
+├─semi_user_join
+│  │  .classpath
+│  │  .gitignore
+│  │  .project
+│  │  
+│  ├─.settings
+│  │      .jsdtscope
+│  │      org.eclipse.jdt.core.prefs
+│  │      org.eclipse.wst.common.component
+│  │      org.eclipse.wst.common.project.facet.core.xml
+│  │      org.eclipse.wst.jsdt.ui.superType.container
+│  │      org.eclipse.wst.jsdt.ui.superType.name
+│  │      
+│  ├─build
+│  │  └─classes
+│  │      └─semi
+│  │          └─user
+│  │                  join.class
+│  │                  
+│  └─src
+│      └─main
+│          ├─java
+│          │  └─semi
+│          │      └─user
+│          │              join.java
+│          │              
+│          └─webapp
+│              ├─META-INF
+│              │      MANIFEST.MF
+│              │      
+│              └─WEB-INF
+│                  └─lib
+│                          ojdbc11.jar
+│                          
+├─semi_user_loginlogout
+│  │  .classpath
+│  │  .project
+│  │  
+│  ├─.settings
+│  │      .jsdtscope
+│  │      org.eclipse.jdt.core.prefs
+│  │      org.eclipse.wst.common.component
+│  │      org.eclipse.wst.common.project.facet.core.xml
+│  │      org.eclipse.wst.jsdt.ui.superType.container
+│  │      org.eclipse.wst.jsdt.ui.superType.name
+│  │      
+│  ├─build
+│  │  └─classes
+│  │      └─semi
+│  │          └─user
+│  │                  login_logout.class
+│  │                  
+│  └─src
+│      └─main
+│          ├─java
+│          │  └─semi
+│          │      └─user
+│          │              login_logout.java
+│          │              
+│          └─webapp
+│              ├─img
+│              │      gajidori.png
+│              │      
+│              ├─META-INF
+│              │      MANIFEST.MF
+│              │      
+│              └─WEB-INF
+│                  └─lib
+│                          ojdbc11.jar
+│                          
+└─Servers
+    │  .project
+    │  
+    ├─.settings
+    │      org.eclipse.wst.server.core.prefs
+    │      
+    └─Tomcat v9.0 Server at localhost-config
+            catalina.policy
+            catalina.properties
+            context.xml
+            server.xml
+            tomcat-users.xml
+            web.xml
+            
